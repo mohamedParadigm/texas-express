@@ -1,0 +1,94 @@
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
+/* =============================================== */
+/*  Banner */
+/* =============================================== */
+.express-banner {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: url("../../images/Banner without texas.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 75% 50%;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 55vh;
+}
+.express-banner .wrapper {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+.express-banner .express-banner-desc {
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 24px;
+}
+/* =============================================== */
+/*  Discover */
+/* =============================================== */
+.discover {
+  padding-top: 70px !important;
+  padding-bottom: 70px !important;
+  background-image: url("../../images/Wood-texture.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.discover::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.discover .container {
+  position: relative;
+  display: flex !important;
+  gap: 1.5rem !important;
+}
+.discover .info,
+.discover .image {
+  flex: 1 !important;
+}
+.discover .title {
+  text-transform: uppercase !important;
+  font-size: 36px !important;
+  color: #2d2926 !important;
+  margin-bottom: 21px !important;
+}
+.discover .desc {
+  font-size: 20px;
+  color: #2d2926;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@media (max-width: 991px) {
+  .discover .container {
+    flex-direction: column !important;
+  }
+  .discover .image {
+    width: 100% !important;
+    order: 2 !important;
+  }
+  .discover .image img {
+    width: 100% !important;
+  }
+  .discover .desc,
+  .discover .title {
+    text-align: center !important;
+  }
+}

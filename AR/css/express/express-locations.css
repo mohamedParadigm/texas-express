@@ -1,0 +1,19 @@
+.express-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.texas-express-logo {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+.express-title .texas-express-logo {
+  height: 35px;
+  width: auto;
+  object-fit: contain;
+  margin-bottom: 0;
+}

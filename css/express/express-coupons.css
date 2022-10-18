@@ -1,0 +1,15 @@
+.express-coupons .coupon-img {
+  border-radius: 0;
+  height: auto;
+}
+.texas-ban .slider-item {
+  background-position: 50% 50%;
+  background-attachment: fixed;
+}
+.texas-express-logo {
+  max-width: 100%;
+  height: auto;
+}
+#usntA40Link {
+  display: none !important;
+}

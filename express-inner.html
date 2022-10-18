@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#2c2925" />
+    <meta name="description" content="Church’s Texas Chicken™" />
+    <meta name="Keywords" content="Church’s Texas Chicken™" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="HandheldFriendly" content="True" />
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <title>Texas Chicken™</title>
+    <link
+      rel="preload"
+      href="fonts/BikerDiamond.otf"
+      as="font"
+      type="font/otf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/icomoon/icomoon.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/TabletGothicCondensed-Regular.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/TabletGothicCondensed-Heavy.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/express/express-inner.css" />
+    <style>
+
+      /*! CSS Used fontfaces */@font-face{font-family:icomoon;src:url(fonts/icomoon/icomoon.eot);src:local("☺"),src:url(fonts/icomoon/icomoon.eot) format('embedded-opentype'),url(fonts/icomoon/icomoon.ttf) format('truetype'),url(fonts/icomoon/icomoon.woff) format('woff'),url(fonts/icomoon/icomoon.svg) format('svg');font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:Tablet;src:url(fonts/TabletGothicCondensed-Heavy.ttf);font-display:swap}@font-face{font-family:biker;src:url(fonts/BikerDiamond.otf);font-display:swap}@font-face{font-family:Tablet-l;src:url(fonts/TabletGothicCondensed-Regular.ttf);font-display:swap}/*! CSS Used from: https://ontario.churchstexaschicken.com/Content/css/open-iconic-bootstrap.min.css */.oi{position:relative;top:1px;display:inline-block;speak:none;font-family:Icons;font-style:normal;font-weight:400;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.oi:empty:before{width:1em;text-align:center;box-sizing:content-box}.oi-menu:before{content:'\e09b'}/*! CSS Used from: https://ontario.churchstexaschicken.com/Content/css/owl.carousel.min.css */.owl-carousel,.owl-carousel .owl-item{-webkit-tap-highlight-color:transparent;position:relative}.owl-carousel{display:none;width:100%;z-index:1}.owl-carousel .owl-stage{position:relative;-ms-touch-action:pan-Y;touch-action:manipulation;-moz-backface-visibility:hidden}.owl-carousel .owl-stage:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}.owl-carousel .owl-stage-outer{position:relative;overflow:hidden;-webkit-transform:translate3d(0,0,0)}.owl-carousel .owl-item,.owl-carousel .owl-wrapper{-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0)}.owl-carousel .owl-item{min-height:1px;float:left;-webkit-backface-visibility:hidden;-webkit-touch-callout:none}.owl-carousel .owl-item img{display:block;width:100%}.owl-carousel .owl-dots.disabled,.owl-carousel .owl-nav.disabled{display:none}.no-js .owl-carousel,.owl-carousel.owl-loaded{display:block}.owl-carousel .owl-dot,.owl-carousel .owl-nav .owl-next,.owl-carousel .owl-nav .owl-prev{cursor:pointer;cursor:hand;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.owl-carousel .owl-nav button.owl-next,.owl-carousel .owl-nav button.owl-prev,.owl-carousel button.owl-dot{background:0 0;color:inherit;border:none;padding:0!important;font:inherit}.owl-carousel.owl-loading{opacity:0;display:block}.owl-carousel.owl-hidden{opacity:0}.owl-carousel.owl-refresh .owl-item{visibility:hidden}.owl-carousel.owl-drag .owl-item{-ms-touch-action:none;touch-action:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.owl-carousel.owl-grab{cursor:move;cursor:grab}.owl-carousel.owl-rtl{direction:rtl}.owl-carousel.owl-rtl .owl-item{float:right}.owl-carousel .animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.owl-carousel .owl-animated-in{z-index:0}.owl-carousel .owl-animated-out{z-index:1}.owl-carousel .fadeOut{-webkit-animation-name:fadeOut;animation-name:fadeOut}@-webkit-keyframes fadeOut{0%{opacity:1}100%{opacity:0}}@keyframes fadeOut{0%{opacity:1}100%{opacity:0}}.owl-height{transition:height .5s ease-in-out}.owl-carousel .owl-item .owl-lazy{opacity:0;transition:opacity .4s ease}.owl-carousel .owl-item img.owl-lazy{-webkit-transform-style:preserve-3d;transform-style:preserve-3d}.owl-carousel .owl-video-wrapper{position:relative;height:100%;background:#000}.owl-carousel .owl-video-play-icon{position:absolute;height:80px;width:80px;left:50%;top:50%;margin-left:-40px;margin-top:-40px;background:url(owl.video.play.png) no-repeat;cursor:pointer;z-index:1;-webkit-backface-visibility:hidden;transition:-webkit-transform .1s ease;transition:transform .1s ease}.owl-carousel .owl-video-play-icon:hover{-webkit-transform:scale(1.3,1.3);-ms-transform:scale(1.3,1.3);transform:scale(1.3,1.3)}.owl-carousel .owl-video-playing .owl-video-play-icon,.owl-carousel .owl-video-playing .owl-video-tn{display:none}.owl-carousel .owl-video-tn{opacity:0;height:100%;background-position:center center;background-repeat:no-repeat;background-size:contain;transition:opacity .4s ease}.owl-carousel .owl-video-frame{position:relative;z-index:1;height:100%;width:100%}/*! CSS Used from: https://ontario.churchstexaschicken.com/Content/css/magnific-popup.css */button::-moz-focus-inner{padding:0;border:0}/*! CSS Used from: https://ontario.churchstexaschicken.com/Content/animation/aos.css */body[data-aos-duration="400"] [data-aos]{transition-duration:.4s}[data-aos][data-aos][data-aos-duration="1000"]{transition-duration:1s}body[data-aos-easing=ease] [data-aos]{transition-timing-function:ease}[data-aos^=fade][data-aos^=fade]{opacity:0;transition-property:opacity,transform}[data-aos^=fade][data-aos^=fade].aos-animate{opacity:1;transform:translateZ(0)}[data-aos=fade-up]{transform:translate3d(0,100px,0)}[data-aos^=zoom][data-aos^=zoom]{opacity:0;transition-property:opacity,transform}[data-aos^=zoom][data-aos^=zoom].aos-animate{opacity:1;transform:translateZ(0) scale(1)}[data-aos=zoom-in]{transform:scale(.6)}/*! CSS Used from: https://ontario.churchstexaschicken.com/Content/css/icomoon.css */[class*=" icon-"],[class^=icon-]{font-family:icomoon!important;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-facebook:before{content:"\f09a"}.icon-globe:before{content:"\f0ac"}.icon-angle-right:before{content:"\f105"}.icon-instagram:before{content:"\f16d"}/*! CSS Used from: https://ontario.churchstexaschicken.com/Content/css/style.css */:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange:#fd7e14;--yellow:#ffc107;--green:#28a745;--teal:#20c997;--cyan:#17a2b8;--white:#fff;--gray:#6c757d;--gray-dark:#343a40;--primary:#78d5ef;--secondary:#6c757d;--success:#28a745;--info:#17a2b8;--warning:#ffc107;--danger:#dc3545;--light:#f8f9fa;--dark:#343a40;--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px;--font-family-sans-serif:Tablet;--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}*,::after,::before{-webkit-box-sizing:border-box;box-sizing:border-box}html{font-family:Tablet;line-height:1.15;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-ms-overflow-style:scrollbar;-webkit-tap-highlight-color:transparent}footer,nav,section{display:block}body{margin:0;font-family:Tablet;font-size:1rem;font-weight:400;line-height:1.2;color:#212529;text-align:left;background-color:#fff}h1,h2,h3{margin-top:0;margin-bottom:.5rem}p{margin-top:0;margin-bottom:1rem;color:#fff;line-height:1.2}ol,ul{margin-top:0;margin-bottom:1rem;color:#a39382}ul ol{margin-bottom:0}b{font-weight:bolder}sub{position:relative;font-size:75%;line-height:0;vertical-align:baseline}sub{bottom:.6em;position:relative}.heading-section sub{bottom:1.3em;font-size:25px;font-family:Tablet-l}a{color:#78d5ef;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects}a:hover{color:#34c0e7;text-decoration:underline}img{vertical-align:middle;border-style:none}svg:not(:root){overflow:hidden}button{border-radius:0}button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color}button{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}button{overflow:visible}button{text-transform:none}button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,button::-moz-focus-inner{padding:0;border-style:none}h1,h2,h3{margin-bottom:.5rem;font-family:inherit;font-weight:500;line-height:1.2;color:inherit}h1{font-size:2.5rem}h2{font-size:2rem}h3{font-size:1.75rem}.list-unstyled{padding-left:0;list-style:none}.img-fluid{max-width:100%;height:auto}.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1140px}}.row{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-5,.col-md-12,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-sm-12{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px}@media (min-width:576px){.col-sm-12{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}}@media (min-width:850px){.col-md-3{-webkit-box-flex:0;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-md-4{-webkit-box-flex:0;-ms-flex:0 0 33.33333%;flex:0 0 33.33333%;max-width:33.33333%}.col-md-5{-webkit-box-flex:0;-ms-flex:0 0 41.66667%;flex:0 0 41.66667%;max-width:41.66667%}.col-md-6{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.col-md-7{-webkit-box-flex:0;-ms-flex:0 0 58.33333%;flex:0 0 58.33333%;max-width:58.33333%}.col-md-8{-webkit-box-flex:0;-ms-flex:0 0 66.66667%;flex:0 0 66.66667%;max-width:66.66667%}.col-md-12{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}}@media (min-width:992px){.col-lg-2{-webkit-box-flex:0;-ms-flex:0 0 16.66667%;flex:0 0 16.66667%;max-width:16.66667%}.col-lg-3{-webkit-box-flex:0;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-lg-5{-webkit-box-flex:0;-ms-flex:0 0 41.66667%;flex:0 0 41.66667%;max-width:41.66667%}.col-lg-12{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}}.btn{display:inline-block;font-weight:400;text-align:center;white-space:nowrap;vertical-align:middle;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:1px solid transparent;padding:.375rem .75rem;font-size:1rem;line-height:1.5;border-radius:.25rem;-webkit-transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;-o-transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out}.top-locator{display:none}.viewmore{margin-bottom:0;color:#2d2926;font-weight:400;position:relative;display:inline-block;margin-left:5px;margin-right:5px;font-family:biker;padding:.5rem 1rem!important;background:#f8b02d;border-radius:9px}.viewmore:hover{color:#2d2926;-moz-transition:all .3s ease;-o-transition:all .3s ease;-webkit-transition:all .3s ease;-ms-transition:all .3s ease;transition:all .3s ease;background:#f8f1f0;border-radius:9px!important;border-color:#f8f1f0}@media screen and (prefers-reduced-motion:reduce){.btn{-webkit-transition:none;-o-transition:none;transition:none}}.btn:focus,.btn:hover{text-decoration:none}.btn:focus{outline:0;-webkit-box-shadow:0 0 0 .2rem rgba(120,213,239,.25);box-shadow:0 0 0 .2rem rgba(120,213,239,.25)}.btn:disabled{opacity:.65}.btn-primary{color:#212529}.btn-primary:hover{color:#212529;background-color:#56caeb;border-color:#fff}.btn-primary:focus{-webkit-box-shadow:0 0 0 .2rem rgba(120,213,239,.5);box-shadow:0 0 0 .2rem rgba(120,213,239,.5)}.btn-primary:disabled{color:#212529;background-color:#78d5ef;border-color:#78d5ef}.fade{-webkit-transition:opacity .15s linear;-o-transition:opacity .15s linear;transition:opacity .15s linear}@media screen and (prefers-reduced-motion:reduce){.fade{-webkit-transition:none;-o-transition:none;transition:none}}.fade:not(.show){opacity:0}.dropdown{position:relative}.nav{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;padding-left:0;margin-bottom:0;list-style:none}.tab-content>.tab-pane{display:none}.tab-content>.active{display:block}.abs{top:0;left:100px;padding:0}.abs img{width:106px}.d-inline-block{display:inline-block!important}.d-block{display:block!important}.d-flex{display:-webkit-box!important;display:-ms-flexbox!important;display:flex!important}@media (min-width:768px){.d-md-flex{display:-webkit-box!important;display:-ms-flexbox!important;display:flex!important}}.justify-content-center{-webkit-box-pack:center!important;-ms-flex-pack:center!important;justify-content:center!important}.justify-content-around{-ms-flex-pack:distribute!important;justify-content:space-around!important}.align-items-end{-webkit-box-align:end!important;-ms-flex-align:end!important;align-items:flex-end!important}.align-items-center{-webkit-box-align:center!important;-ms-flex-align:center!important;align-items:center!important}.align-content-center{-ms-flex-line-pack:center!important;align-content:center!important}.float-right{float:right!important}.w-50{width:50%!important}.m-0{margin:0!important}.mb-4{margin-bottom:1rem!important}.mb-5{margin-bottom:3rem!important}.p-0{padding:0!important}.py-2{padding-top:.5rem!important}.py-2{padding-bottom:.5rem!important}.p-3{padding:1rem!important}.ml-auto{margin-left:auto!important}@media (min-width:1200px){.py-xl-3{padding-top:1rem!important}.py-xl-3{padding-bottom:1rem!important}.px-xl-4{padding-right:1.5rem!important}.px-xl-4{padding-left:1.5rem!important}}.text-left{text-align:left!important}.text-center{text-align:center!important}.text-uppercase{text-transform:uppercase!important}@media print{*,::after,::before{text-shadow:none!important;-webkit-box-shadow:none!important;box-shadow:none!important}a:not(.btn){text-decoration:underline}img{page-break-inside:avoid}h2,h3,p{orphans:3;widows:3}h2,h3{page-break-after:avoid}body{min-width:992px!important}.container{min-width:992px!important}.navbar{display:none}}body{font-family:Tablet-l;background:#fff;font-size:18px;line-height:1.8;font-weight:300;color:#dedede;background-size:cover}span{color:#bfbfbf}a{-webkit-transition:.3s all ease;-o-transition:.3s all ease;transition:.3s all ease;color:#f8b02d}a:active,a:focus,a:hover{color:#f8b02d;outline:0!important;text-decoration:none!important}h1,h2,h3{line-height:1.4;color:#fff;font-weight:400;font-family:Tablet}.owl-carousel{position:relative}.owl-carousel .owl-item{opacity:.4}.owl-carousel .owl-item.active{opacity:1}.owl-carousel .owl-nav{position:absolute;top:50%;width:100%}.owl-carousel .owl-nav .owl-next,.owl-carousel .owl-nav .owl-prev{position:absolute;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);margin-top:-10px;color:#f8b02d!important;-moz-transition:all .7s ease;-o-transition:all .7s ease;-webkit-transition:all .7s ease;-ms-transition:all .7s ease;transition:all .7s ease;opacity:0}.owl-carousel .owl-nav .owl-next span:before,.owl-carousel .owl-nav .owl-prev span:before{font-size:30px}.owl-carousel .owl-nav .owl-prev{left:0}.owl-carousel .owl-nav .owl-next{right:0}.owl-carousel:hover .owl-nav .owl-next,.owl-carousel:hover .owl-nav .owl-prev{opacity:1}.owl-carousel:hover .owl-nav .owl-prev{left:-25px}.owl-carousel:hover .owl-nav .owl-next{right:-25px}.home-slider.owl-carousel.owl-loaded.owl-drag{background:url(images/slide-bg.webp);background-size:cover;height:485px}.owl-carousel.home-slider .slider-item{background-size:cover;background-repeat:no-repeat;background-position:center top;height:485px;position:relative;z-index:0}@media (max-width:1199.98px){.owl-carousel.home-slider .slider-item{background-position:center center!important}}.owl-carousel.home-slider .slider-item .slider-text{color:#fff;height:485px;text-align:right}.owl-carousel.home-slider .slider-item .slider-text.orderonly{color:#fff;height:485px;text-align:right;display:inline-grid}.owl-carousel.home-slider .slider-item .slider-text.orderonly div{display:table-cell;vertical-align:middle}.owl-carousel.home-slider .slider-item .slider-text.orderonly p{padding-top:280px}@media (min-width:1000px) and (max-width:1500px){.owl-carousel.home-slider .slider-item .slider-text.orderonly p{padding-left:9vw}}.owl-carousel.home-slider .slider-item .slider-text.orderonly p a{font-size:20px}@media (max-width:767.98px){.owl-carousel.home-slider .slider-item .slider-text{text-align:center}}@media (max-width:991.98px){.owl-carousel.home-slider,.owl-carousel.home-slider .slider-item,.owl-carousel.home-slider .slider-item .slider-text,.owl-carousel.home-slider .slider-item .slider-text.orderonly,.owl-carousel.home-slider .slider-item video{height:250px}.owl-carousel.home-slider .slider-item .slider-text.orderonly p{padding-top:100px}.owl-carousel.home-slider .slider-item .slider-text.orderonly p a{font-size:13px}}.owl-carousel.home-slider .slider-item .slider-text p{font-size:18px;line-height:1.5;font-weight:300;color:#fff}.owl-carousel.home-slider .owl-nav .owl-next span,.owl-carousel.home-slider .owl-nav .owl-prev span{color:#fff}.owl-carousel.home-slider:hover .owl-nav .owl-next,.owl-carousel.home-slider:hover .owl-nav .owl-prev{opacity:1}.owl-carousel.home-slider:hover .owl-nav .owl-prev{left:20px}.owl-carousel.home-slider:hover .owl-nav .owl-next{right:20px}.owl-carousel.home-slider .owl-dots{position:absolute;left:0;right:0;bottom:40px;width:100%;text-align:center}@media (max-width:767.98px){.owl-carousel.home-slider .owl-dots{bottom:5px}}.owl-carousel.home-slider .owl-dots .owl-dot{width:18px!important;height:18px!important;margin:5px;border-radius:50%;background:#e6e6e6;background:0 0;border:2px solid rgba(255,255,255,.5);outline:0!important;position:relative;-webkit-transition:.3s all ease;-o-transition:.3s all ease;transition:.3s all ease;display:inline-block}.owl-carousel.home-slider .owl-dots .owl-dot span{text-indent: 3000px;overflow: hidden;position:absolute;width:12px;height:12px;background:rgba(255,255,255,.5);border-radius:50%!important;left:50%;top:50%;display:block;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.owl-carousel.home-slider .owl-dots .owl-dot.active{border:2px solid #fff}.owl-carousel.home-slider .owl-dots .owl-dot.active span{background:#fff}.btn{cursor:pointer;-webkit-border-radius:0;-moz-border-radius:0;-ms-border-radius:0;border-radius:0;-webkit-box-shadow:none!important;box-shadow:none!important;border-radius:9px;text-transform:uppercase}.btn:active,.btn:focus,.btn:hover{outline:0}.btn.btn-primary{background-size:cover;background-repeat:no-repeat;background-position:center;background:#f8b02d;transition:.3s all ease-in-out;padding:.5rem 1rem!important;font-family:biker;color:#2d2926!important;text-transform:uppercase}.btn.btn-primary:hover{color:#2d2926!important;background:#fff}.texas-about p{color:#2d2926}.texas-menu{padding-top:4em}.menu-wrap{margin-bottom:60px;transition:.3s all ease-in-out}.menu-wrap .menu-img{display:block}.menu-wrap .menu-img img{height:250px;width:100%;object-fit:contain;border-radius:9px 9px 0 0;position:relative;cursor:pointer}.menu-wrap h3{font-size:17px;text-transform:capitalize;margin-bottom:14px;font-family:Tablet-l;background:#9a3324;padding:11px 11px;border-radius:9px;transition:.3s all ease-in-out;position:relative;cursor:pointer;display:table;width:100%;height:60px}.menu-wrap:hover h3{background:#f8b02d}.menu-wrap h3 span.til{width:60%;text-align:left;display:inline-block;color:#fff;line-height:19px;display:table-cell;vertical-align:middle}.menu-wrap h3 i{opacity:0;padding:6px;position:absolute;top:15px;right:6px;display:table-cell;vertical-align:middle}.menu-wrap h3 span{width:35%;text-align:right;display:inline-block;transition:.3s}.menu-wrap:hover h3 span{color:#2d2926;padding-left:3px}.menu-wrap:hover h3 i{opacity:1;color:#2d2926}.centerflex{align-items:center;justify-content:center}.texas-footer{font-size:16px;padding:1px;background:#2d2926;padding-top:30px;padding-bottom:15px}.top-0{padding-top:0}@media (max-width:991.98px){.viewmore{margin-bottom:34px}}.heading-section{z-index:0;position:relative}.heading-section .subheading{font-size:35px;display:block;margin-bottom:0;font-family:biker;text-transform:uppercase;color:#9a3324;line-height:1;z-index:1}.texas-menu.texas-menu-wood p{color:#2c2925;margin-bottom:3rem}.heading-section .subheading.white{color:#fff}.heading-section .subheading.now{position:absolute;right:38%;top:66px}.heading-section h1{z-index:-1;font-size:60px;font-weight:700;position:relative;text-transform:uppercase;color:#f8b02d;padding-top:0;margin-top:-16px;margin-bottom:0!important}.img{background-size:cover;background-repeat:no-repeat;background-position:center center}.texas-menu{position:relative;width:100%;height:700px;display:block;background-repeat:no-repeat;background-size:cover}@media (max-width:900px){.texas-menu-wood{background:url(images/bg_4.webp)!important;background-repeat:repeat!important}}.texas-menu .nav-pills .nav-link{border-radius:0;margin-bottom:0;color:#9a3324;font-size:15px;font-weight:400;position:relative;display:inline-block;margin-left:21px;margin-right:21px;font-family:biker;text-transform:uppercase;border:1px solid transparent;border-bottom:1px solid #9a3324}.texas-menu .nav-pills .nav-link:hover{color:#f8b02d;-moz-transition:all .3s ease;-o-transition:all .3s ease;-webkit-transition:all .3s ease;-ms-transition:all .3s ease;transition:all .3s ease;background:0 0;border-bottom:1px solid #f8b02d}.texas-menu .nav-pills .nav-link:hover:after{opacity:1}@media (max-width:767.98px){.texas-menu .nav-pills .nav-link:hover:after{opacity:0}}@media (max-width:767.98px){.texas-menu .nav-pills .nav-link{display:block;width:100%;margin-bottom:5px}}::-webkit-scrollbar{width:.7em}::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 3px rgba(0,0,0,.3)}::-webkit-scrollbar-thumb{background-color:#120f0f;outline:1px solid #120f0f}.icon-globe:before{font-size:25px;position:relative;top:0}.opacity-medium{position:absolute;height:100%;width:30%;opacity:.7;z-index:1;top:0;right:0}.bg-txt{opacity:1!important;background-image:url(images/overlay.png)!important;background-repeat:no-repeat;background-size:cover;background-position:96% center}.texas-about-dark .bg-txt{opacity:1!important;background-image:url(images/overlayDark.png)!important;background-repeat:no-repeat;background-size:cover;background-position:100% center}@media (min-width:1700px) and (max-width:2000px){.texas-about-dark .bg-txt{background-position:104% center}}.texas-about-dark{background-color:#2d2926;}.texas-about-dark p{color:#fff}video{height:480px;width:100%;object-fit:cover;object-position:center;display:flex}.slider-item video{height:485px;width:100%;object-fit:cover;object-position:center;display:flex}@media (min-width:700px) and (max-width:1100px){.texas-menu .nav-pills .nav-link{margin-left:3px;margin-right:3px}}.bg-fast-red{background:#9a3324!important;padding:20px;height: 340px;}.locator span{font-size:27px;font-family:biker;padding:15px 0 32px 0;color:#fff}.padding-two{padding-top:2%!important;padding-bottom:2%!important}@media (max-width:991.98px){.locator span{font-size:19px}.texas-menu{background-size:cover;height:100%;background-position:right}video{height:200px}.heading-section h1{font-size:35px;line-height:37px!important;padding-top:2px;margin-top:0}.heading-section .subheading{font-size:27px}.p-3-v{padding:1rem!important}.bg-txt,.texas-about-dark .bg-txt{background-position:69% bottom;background:0 0;display:none}.heading-section .subheading.now{position:absolute;right:37%;top:31px;font-family:biker;font-size:30px}.btn.btn-primary{padding:9px 15px!important}.texas-menu{position:relative;width:100%;height:100%;display:block;background-repeat:repeat-y;background-size:contain!important;background-size:cover}}@media (min-width:600px) and (max-width:850px){video{height:300px!important}.heading-section .subheading.now{position:absolute;right:41%;top:46px}}.owl-carousel .owl-stage,.owl-carousel.owl-drag .owl-item{-ms-touch-action:auto;touch-action:auto}@media (min-width:900px) and (max-width:1100px){.bg-txt,.texas-about-dark .bg-txt{background-image:none!important;background:0 0;display:none}.heading-section h1{font-size:50px;line-height:100px!important;padding-top:2px;margin-top:-22px}.texas-about .col-md-5,.texas-about .col-md-7{width:100%;flex:100%;max-width:100%}.p-3-v{padding:30px}}@media (min-width:320px) and (max-width:599px){.home-slider.owl-carousel.owl-loaded.owl-drag{background:url(images/slide-bg1.webp);height:250px}}@media (min-width:600px) and (max-width:990px){.home-slider.owl-carousel.owl-loaded.owl-drag{background:url(images/slide-bg2.webp);height:350px}}@media (min-width:600px) and (max-width:1100px){.texas-footer .col-md-6{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.texas-footer .justify-content-center{-webkit-box-pack:left!important;-ms-flex-pack:left!important;justify-content:left!important}.owl-carousel.home-slider,.owl-carousel.home-slider .slider-item,.owl-carousel.home-slider .slider-item .slider-text,.owl-carousel.home-slider .slider-item .slider-text.orderonly,.owl-carousel.home-slider .slider-item video{height:350px!important}}@media (min-width:1000px) and (max-width:1200px){video{height:350px;width:100%}.p-3-v{padding:25px 0}.texas-about .heading-section h1{z-index:-1;font-size:73px;font-weight:700;position:relative;text-transform:uppercase;color:#f8b02d;line-height:58px!important;padding-top:0;margin-top:4px;font-size:60px;margin-bottom:10px!important}.texas-about p{font-size:16px}.texas-footer-social li{margin:0 5px 0 0}.owl-carousel.home-slider .slider-item .slider-text.orderonly p{padding-top:280px}}.menu-wrap img{width:20%}@media screen and (max-width:990px){.heading-section sub{bottom:.8em}.btn.btn-primary.btnbig{padding:.5rem 1rem!important}.twoIcons{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:row;padding-left:0;margin-bottom:0;list-style:none;margin-top:20px}.icon-globe:before{color:#f8b02d}}@media screen and (max-width:900px){.top-locator.bg-fast-red.no-padding.locator{display:block}.bg-fast-red.no-padding.locator{display: none}.navbar-nav{padding-left:14px;padding-right:14px}.texas-navbar-light .navbar-nav>.nav-item>.nav-link{padding-left:0}}@media screen and (min-width:1600px){.home-slider.owl-carousel.owl-loaded.owl-drag,.owl-carousel.home-slider,.owl-carousel.home-slider .slider-item,.owl-carousel.home-slider .slider-item .slider-text,.owl-carousel.home-slider .slider-item .slider-text.orderonly,.owl-carousel.home-slider .slider-item video{height:600px!important}.owl-carousel.home-slider .slider-item .slider-text.orderonly p{padding-top:350px;margin-left:-70px}}@media screen and (min-width:990px) and (max-width:1200px){.home-slider.owl-carousel.owl-loaded.owl-drag,.owl-carousel.home-slider,.owl-carousel.home-slider .slider-item,.owl-carousel.home-slider .slider-item .slider-text,.owl-carousel.home-slider .slider-item .slider-text.orderonly,.owl-carousel.home-slider .slider-item video{height:485px!important}}.StoryImg img{width:100%!important;height:489px!important;object-fit:cover}@media (min-width:1400px){.StoryImg img{width:1095px!important;height:450px!important;object-fit:cover}}@media (max-width:900px){.StoryImg img{width:100%!important;height:300px!important;object-fit:cover}.t2-m{background-image:url(images/order-mobile.webp)!important}.t3-m{background-image:url(images/2_1-mobile.webp)!important}.t4-m{background-image:url(images/flavor-mobile.webp)!important}}/*! CSS Used from: Embedded */.texas-footer-social.talabat li a img{width:55px;padding:0;margin:0}.texas-footer-social.talabat li a{height:65px;width:65px;line-height:65px;text-align:center;display:block;float:left;background:rgb(255 255 255);border-radius:50%;position:relative;transition:.3s all ease-in-out}/*! CSS Used keyframes */@-webkit-keyframes loader-rotate{100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes loader-rotate{100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@-webkit-keyframes loader-dash{0%{stroke-dasharray:1,200;stroke-dashoffset:0}50%{stroke-dasharray:89,200;stroke-dashoffset:-35px}100%{stroke-dasharray:89,200;stroke-dashoffset:-136px}}@keyframes loader-dash{0%{stroke-dasharray:1,200;stroke-dashoffset:0}50%{stroke-dasharray:89,200;stroke-dashoffset:-35px}100%{stroke-dasharray:89,200;stroke-dashoffset:-136px}}
+    </style>
+  </head>
+  <body>
+    <div class="top-nav">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-right">
+            <ul class="navbar-nav ml-auto" id="menueul">
+              <li class="nav-item">
+                <a href="blog.html" class="nav-link">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a href="contactus.html" class="nav-link">Contact us</a>
+              </li>
+            </ul>
+            <ol class="twoIcons navbar-nav justify-content-around">
+              <li class="nav-item dropdown pad-1">
+                <a href="#" class="nav-link search-bar">
+                  <svg
+                    fill="#f8b02d"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 50 50"
+                    width="25px"
+                    height="25px"
+                  >
+                    <path
+                      d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z"
+                    />
+                  </svg>
+                  <input type="text" placeholder="Search..." />
+                </a>
+              </li>
+              <li class="nav-item dropdown pad-1">
+                <a class="nav-link" href="landing.html"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="#f8b02d"
+                    version="1.1"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:svgjs="http://svgjs.com/svgjs"
+                    x="0"
+                    y="0"
+                    viewBox="0 0 48.625 48.625"
+                    style="enable-background: new 0 0 512 512"
+                    xml:space="preserve"
+                    class="icon-globe"
+                  >
+                    <g>
+                      <g xmlns="http://www.w3.org/2000/svg">
+                        <g>
+                          <polygon
+                            points="35.432,10.815 35.479,11.176 34.938,11.288 34.866,12.057 35.514,12.057 36.376,11.974 36.821,11.445     36.348,11.261 36.089,10.963 35.7,10.333 35.514,9.442 34.783,9.591 34.578,9.905 34.578,10.259 34.93,10.5   "
+                            fill="currentColor"
+                            data-original="#000000"
+                            class=""
+                          />
+                          <polygon
+                            points="34.809,11.111 34.848,10.629 34.419,10.444 33.819,10.583 33.374,11.297 33.374,11.76 33.893,11.76   "
+                            fill="currentColor"
+                            data-original="#000000"
+                            class=""
+                          />
+                          <path
+                            d="M22.459,13.158l-0.132,0.34h-0.639v0.33h0.152c0,0,0.009,0.07,0.022,0.162l0.392-0.033l0.245-0.152l0.064-0.307    l0.317-0.027l0.125-0.258l-0.291-0.06L22.459,13.158z"
+                            fill="currentColor"
+                            data-original="#000000"
+                            class=""
+                          />
+                          <polygon
+                            points="20.812,13.757 20.787,14.08 21.25,14.041 21.298,13.717 21.02,13.498   "
+                            fill="currentColor"
+                            data-original="#000000"
+                            class=""
+                          />
+                          <path
+                            d="M48.619,24.061c-0.007-0.711-0.043-1.417-0.11-2.112c-0.225-2.317-0.779-4.538-1.609-6.62    c-0.062-0.155-0.119-0.312-0.185-0.465c-1.106-2.613-2.659-4.992-4.56-7.045c-0.125-0.134-0.252-0.266-0.379-0.396    c-0.359-0.373-0.728-0.737-1.11-1.086C36.344,2.402,30.604,0,24.312,0C17.967,0,12.186,2.445,7.852,6.44    C6.842,7.371,5.914,8.387,5.072,9.475C1.896,13.583,0,18.729,0,24.312c0,13.407,10.907,24.313,24.313,24.313    c9.43,0,17.617-5.4,21.647-13.268c0.862-1.682,1.533-3.475,1.985-5.354c0.115-0.477,0.214-0.956,0.3-1.441    c0.245-1.381,0.379-2.801,0.379-4.25C48.625,24.228,48.62,24.145,48.619,24.061z M44.043,14.344l0.141-0.158    c0.185,0.359,0.358,0.724,0.523,1.094l-0.23-0.009l-0.434,0.06V14.344z M40.53,10.102l0.004-1.086    c0.382,0.405,0.75,0.822,1.102,1.254l-0.438,0.652l-1.531-0.014l-0.096-0.319L40.53,10.102z M11.202,7.403V7.362h0.487    l0.042-0.167h0.797v0.348l-0.229,0.306h-1.098L11.202,7.403L11.202,7.403z M11.98,8.488c0,0,0.487-0.083,0.529-0.083    s0,0.486,0,0.486L11.411,8.96l-0.209-0.25L11.98,8.488z M45.592,18.139h-1.779l-1.084-0.807l-1.141,0.111v0.696h-0.361    l-0.39-0.278l-1.976-0.501v-1.28l-2.504,0.195l-0.776,0.417h-0.994L34.1,16.643l-1.207,0.67v1.261l-2.467,1.78l0.205,0.76h0.5    L31,21.838l-0.352,0.129l-0.019,1.892l2.132,2.428h0.928l0.056-0.148h1.668l0.481-0.445h0.946l0.519,0.52l1.41,0.146l-0.187,1.875    l1.565,2.763l-0.824,1.575l0.056,0.742l0.649,0.647v1.784l0.852,1.146v1.482h0.736c-4.096,5.029-10.33,8.25-17.305,8.25    C12.009,46.625,2,36.615,2,24.312c0-3.097,0.636-6.049,1.781-8.732v-0.696l0.798-0.969c0.277-0.523,0.574-1.033,0.891-1.53    l0.036,0.405l-0.926,1.125c-0.287,0.542-0.555,1.096-0.798,1.665v1.27l0.927,0.446v1.765l0.889,1.517l0.723,0.111l0.093-0.52    l-0.853-1.316l-0.167-1.279h0.5l0.211,1.316l1.233,1.799L7.02,21.27l0.784,1.199l1.947,0.482v-0.315l0.779,0.111l-0.074,0.556    l0.612,0.112l0.945,0.258l1.335,1.521l1.705,0.129l0.167,1.391l-1.167,0.816l-0.055,1.242l-0.167,0.76l1.688,2.113l0.129,0.724    c0,0,0.612,0.166,0.687,0.166c0.074,0,1.372,0.983,1.372,0.983v3.819l0.463,0.13l-0.315,1.762l0.779,1.039l-0.144,1.746    l1.029,1.809l1.321,1.154l1.328,0.024l0.13-0.427l-0.976-0.822l0.056-0.408l0.175-0.5l0.037-0.51l-0.66-0.02l-0.333-0.418    l0.548-0.527l0.074-0.398l-0.612-0.175l0.036-0.37l0.872-0.132l1.326-0.637l0.445-0.816l1.391-1.78l-0.316-1.392l0.427-0.741    l1.279,0.039l0.861-0.682l0.278-2.686l0.955-1.213l0.167-0.779l-0.871-0.279l-0.575-0.943l-1.965-0.02l-1.558-0.594l-0.074-1.111    l-0.52-0.909l-1.409-0.021l-0.814-1.278l-0.723-0.353l-0.037,0.39l-1.316,0.078l-0.482-0.671l-1.373-0.279l-1.131,1.307    l-1.78-0.302l-0.129-2.006l-1.299-0.222l0.521-0.984l-0.149-0.565l-1.707,1.141l-1.074-0.131L9.48,21.016l0.234-0.865l0.592-1.091    l1.363-0.69l2.632-0.001l-0.007,0.803l0.946,0.44l-0.075-1.372l0.682-0.686l1.376-0.904l0.094-0.636l1.372-1.428l1.459-0.808    l-0.129-0.106l0.988-0.93l0.362,0.096l0.166,0.208l0.375-0.416l0.092-0.041l-0.411-0.058l-0.417-0.139v-0.4l0.221-0.181h0.487    l0.223,0.098l0.193,0.39l0.236-0.036v-0.034l0.068,0.023l0.684-0.105l0.097-0.334l0.39,0.098v0.362l-0.362,0.249h0.001    l0.053,0.397l1.239,0.382c0,0,0.001,0.005,0.003,0.015l0.285-0.024l0.019-0.537l-0.982-0.447l-0.056-0.258l0.815-0.278l0.036-0.78    l-0.852-0.519l-0.056-1.315l-1.168,0.574h-0.426l0.112-1.001l-1.59-0.375l-0.658,0.497v1.516l-1.183,0.375l-0.474,0.988    l-0.514,0.083v-1.264l-1.112-0.154l-0.556-0.362l-0.224-0.819l1.989-1.164l0.973-0.296l0.098,0.654l0.542-0.028l0.042-0.329    l0.567-0.081l0.01-0.115l-0.244-0.101l-0.056-0.348l0.697-0.059l0.421-0.438l0.023-0.032l0.005,0.002l0.128-0.132l1.465-0.185    l0.648,0.55l-1.699,0.905l2.162,0.51l0.28-0.723h0.945l0.334-0.63l-0.668-0.167V6.212L22.69,5.284l-1.446,0.167l-0.816,0.427    l0.056,1.038l-0.853-0.13L19.5,6.212l0.817-0.742l-1.483-0.074l-0.426,0.129l-0.185,0.5l0.556,0.094l-0.111,0.556l-0.945,0.056    l-0.148,0.37l-1.371,0.038c0,0-0.038-0.778-0.093-0.778c-0.055,0,1.075-0.019,1.075-0.019l0.817-0.798l-0.446-0.223l-0.593,0.576    l-0.984-0.056l-0.593-0.816h-1.261L12.81,6.008h1.206l0.11,0.353l-0.313,0.291l1.335,0.037l0.204,0.482l-1.503-0.056l-0.073-0.371    L12.831,6.54L12.33,6.262l-1.125,0.009C14.888,3.588,19.417,2,24.312,2c5.642,0,10.797,2.109,14.73,5.574l-0.265,0.474    l-1.029,0.403l-0.434,0.471l0.1,0.549l0.531,0.074l0.32,0.8l0.916-0.369l0.151,1.07h-0.276l-0.752-0.111l-0.834,0.14l-0.807,1.14    l-1.154,0.181l-0.167,0.988l0.487,0.115l-0.141,0.635l-1.146-0.23l-1.051,0.23l-0.223,0.585l0.182,1.228l0.617,0.289l1.035-0.006    l0.699-0.063l0.213-0.556l1.092-1.419l0.719,0.147l0.708-0.64l0.132,0.5l1.742,1.175l-0.213,0.286l-0.785-0.042l0.302,0.428    l0.483,0.106l0.566-0.236l-0.012-0.682l0.251-0.126l-0.202-0.214l-1.162-0.648l-0.306-0.861h0.966l0.309,0.306l0.832,0.717    l0.035,0.867l0.862,0.918l0.321-1.258l0.597-0.326l0.112,1.029l0.583,0.64l1.163-0.02c0.225,0.579,0.427,1.168,0.604,1.769    L45.592,18.139z M13.261,11.046l0.584-0.278l0.528,0.126l-0.182,0.709l-0.57,0.181L13.261,11.046z M16.36,12.715v0.459h-1.334    l-0.5-0.139l0.125-0.32l0.641-0.265h0.876v0.265H16.36z M16.974,13.355V13.8l-0.334,0.215l-0.416,0.077c0,0,0-0.667,0-0.737    H16.974z M16.598,13.174v-0.529l0.459,0.418L16.598,13.174z M16.807,14.244v0.433l-0.319,0.32h-0.709l0.111-0.486l0.335-0.029    l0.069-0.167L16.807,14.244z M15.041,13.355h0.737l-0.945,1.321l-0.39-0.209l0.084-0.556L15.041,13.355z M18.059,14.092v0.432    H17.35l-0.194-0.28v-0.402h0.056L18.059,14.092z M17.404,13.498l0.202-0.212l0.341,0.212l-0.273,0.225L17.404,13.498z     M45.954,19.265l0.07-0.082c0.029,0.126,0.06,0.252,0.088,0.38L45.954,19.265z"
+                            fill="currentColor"
+                            data-original="#000000"
+                            class=""
+                          />
+                          <path
+                            d="M3.782,14.884v0.696c0.243-0.568,0.511-1.122,0.798-1.665L3.782,14.884z"
+                            fill="currentColor"
+                            data-original="#000000"
+                            class=""
+                          />
+                        </g>
+                      </g>
+                      <g xmlns="http://www.w3.org/2000/svg"></g>
+                      <g xmlns="http://www.w3.org/2000/svg"></g>
+                      <g xmlns="http://www.w3.org/2000/svg"></g>
+                      <g xmlns="http://www.w3.org/2000/svg"></g>
+                      <g xmlns="http://www.w3.org/2000/svg"></g>
+                      <g xmlns="http://www.w3.org/2000/svg"></g>
+                      <g xmlns="http://www.w3.org/2000/svg"></g>
+                      <g xmlns="http://www.w3.org/2000/svg"></g>
+                      <g xmlns="http://www.w3.org/2000/svg"></g>
+                      <g xmlns="http://www.w3.org/2000/svg"></g>
+                      <g xmlns="http://www.w3.org/2000/svg"></g>
+                      <g xmlns="http://www.w3.org/2000/svg"></g>
+                      <g xmlns="http://www.w3.org/2000/svg"></g>
+                      <g xmlns="http://www.w3.org/2000/svg"></g>
+                      <g xmlns="http://www.w3.org/2000/svg"></g>
+                    </g></svg
+                ></a>
+              </li>
+              <li class="nav-item dropdown pad-1">
+                <a class="nav-link" href="AR/express.html">AR</a>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark texas_navbar texas-navbar-light"
+      id="texas-navbar"
+    >
+      <div class="container">
+        <a class="navbar-brand abs" href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="382.21"
+            height="354.811"
+            viewBox="0 0 382.21 354.811"
+            style="width: 80px; height: 80px"
+          >
+            <g
+              id="Texas_logo-01-01"
+              data-name="Texas logo-01-01"
+              transform="translate(-8.9 -22.59)"
+            >
+              <g id="Group_71" data-name="Group 71">
+                <path
+                  id="Path_99"
+                  data-name="Path 99"
+                  d="M60.95,147.55a147.662,147.662,0,0,1,255.91-36.48l32.84-4.68A177.425,177.425,0,0,0,28.12,152.23Z"
+                  fill="#f6b318"
+                ></path>
+                <path
+                  id="Path_100"
+                  data-name="Path 100"
+                  d="M313.15,293.64A147.632,147.632,0,0,1,87.5,296.78l-33.92,4.83A177.425,177.425,0,0,0,353.1,287.93Z"
+                  fill="#f6b318"
+                ></path>
+              </g>
+              <g id="Group_72" data-name="Group 72">
+                <path
+                  id="Path_101"
+                  data-name="Path 101"
+                  d="M217.87,282.7h0l-.8-4.09a8.3,8.3,0,0,0-1.97.04c-3.59.51-5.2,2.01-4.11,9.68.96,6.77,2.9,7.76,6.91,7.19a17.581,17.581,0,0,0,4.61-1.37l1.02,3.38a25.313,25.313,0,0,1-5.86,1.66c-6.75.96-10.12-.78-11.45-10.06-1.44-10.12,1.88-13.02,8.56-13.97a20.634,20.634,0,0,1,5.37-.08l.95,7.18Z"
+                  fill="#fff"
+                ></path>
+                <path
+                  id="Path_102"
+                  data-name="Path 102"
+                  d="M232.28,293.67h0l2.76-.53-2.42-16.99-2.8.26-.43-3.02,10.09-1.43.43,3.01-2.55.47.91,6.37,8.97-1.28-.91-6.37-2.58.27-.43-3.02,10.05-1.43.43,3.01-2.76.53,2.43,16.99,2.79-.26.43,3.02-10.05,1.43-.43-3.02,2.55-.46-1-7.04-8.97,1.28,1,7.03,2.58-.26.43,3.02-10.09,1.43Z"
+                  fill="#fff"
+                ></path>
+                <path
+                  id="Path_103"
+                  data-name="Path 103"
+                  d="M265.27,288.97h0l2.76-.53-2.42-16.99-2.8.26-.43-3.02,10.3-1.47.43,3.02-2.76.53,2.42,16.99,2.8-.26.43,3.01-10.3,1.47Z"
+                  fill="#fff"
+                ></path>
+                <path
+                  id="Path_104"
+                  data-name="Path 104"
+                  d="M295.77,271.59h0l-.8-4.09a8.3,8.3,0,0,0-1.97.04c-3.59.51-5.2,2.01-4.11,9.68.96,6.77,2.9,7.76,6.91,7.19a17.581,17.581,0,0,0,4.61-1.37l1.02,3.38a25.314,25.314,0,0,1-5.86,1.66c-6.75.96-10.12-.78-11.45-10.06-1.44-10.12,1.88-13.02,8.56-13.97a20.634,20.634,0,0,1,5.37-.08l.95,7.18Z"
+                  fill="#fff"
+                ></path>
+                <path
+                  id="Path_105"
+                  data-name="Path 105"
+                  d="M310.17,282.57h0l2.76-.54-2.42-16.98-2.8.26-.43-3.02,9.57-1.36.42,2.91-2.04.36,1.12,7.84,5.96-8.81-2.2.21-.41-2.92,9.56-1.36.43,3.01-1.88.37-6.21,9.03,9.03,8.01,1.98-.21.43,3.01-9.92,1.42-.41-2.92,2.17-.38-8.38-7.42,1.2,8.45,2.05-.23.42,2.92-9.57,1.36Z"
+                  fill="#fff"
+                ></path>
+                <path
+                  id="Path_106"
+                  data-name="Path 106"
+                  d="M352.84,271.01h0l-.45-1.92-5.1.73.99,6.97,6.72-.96-.23-2.84,3.24-.46.88,6.17-17.66,2.51-.43-3.01,2.76-.53-2.42-16.99-2.8.26-.43-3.02,17.66-2.51.85,6-3.23.46-.56-2.63-6.71.96.92,6.5,5.1-.72-.09-1.94,2.92-.41.99,6.97Z"
+                  fill="#fff"
+                ></path>
+                <path
+                  id="Path_107"
+                  data-name="Path 107"
+                  d="M368.38,277.34h0l-.43-3.02,2.76-.53-2.42-16.99-2.8.26-.43-3.02,9.04-1.29,8.5,11.27a64.212,64.212,0,0,1,4.07,6.19l.11-.01c-.58-2.28-1.1-4.73-1.4-6.57l-1.3-9.15-2.62.27-.43-2.98,9.25-1.32.43,3.02-2.48.46,2.88,20.17-6.19.88-8.53-11.26a64.212,64.212,0,0,1-4.07-6.19l-.14.02c.58,2.28,1.14,4.73,1.4,6.57l1.3,9.15,2.62-.27.42,2.98Z"
+                  fill="#fff"
+                ></path>
+              </g>
+              <path
+                id="Path_108"
+                data-name="Path 108"
+                d="M339.61,140.59a6.39,6.39,0,0,1,5.02,1.18c2.86,2.17,4.72,7.13,5.98,16.01l27.25-6.7c-2.14-14.62-6.71-24.39-13.98-29.86-6.25-4.7-14.47-6.24-25.12-4.71-11.68,1.68-20.99,6.37-26.92,13.55-6.13,7.43-8.5,17.43-6.84,28.92,3.36,23.34,19.64,29.67,34.01,35.24l.15.06c10.66,3.95,19.86,7.37,21.27,17.17.43,3.03.23,5.3-.63,6.95a5.9,5.9,0,0,1-4.7,3.04c-7.5,1.09-11.39-3.98-13.71-18.01l-28.18,7.25a.981.981,0,0,1-1.17-.61L281.7,129.54l-37.61,5.42-6.44,106.38a.992.992,0,0,1-1.87.4l-22.06-41.91a.967.967,0,0,1-.09-.67l16.22-77.4-32.05,4.5-7.73,53.85a.976.976,0,0,1-.84.84l-.86.12a.994.994,0,0,1-1.04-.57l-16.37-35.34L8.9,168.09l3.58,24.89,20.49-2.92a.989.989,0,0,1,1.12.83l13.7,97.45,28.16-3.96L62.26,187a1.021,1.021,0,0,1,.18-.74,1.006,1.006,0,0,1,.66-.39l17.6-2.47a.991.991,0,0,1,1.12.84l13.69,97.39,59.14-8.32a.66.66,0,0,1,.14-.01,1,1,0,0,1,.98,1.18l-5.95,30.88,35.31-4.72,8.3-73.99a.987.987,0,0,1,.84-.87l.69-.1a1,1,0,0,1,1.05.58l17.1,38.87,52.57-7.42.43-25.21a.988.988,0,0,1,.85-.96l20.37-2.94a1,1,0,0,1,1.09.68l7.53,24.18,30.48-4.34-3.95-11.07a.992.992,0,0,1,1.63-1.05c7.33,7.3,17.99,9.83,32.59,7.73,23.42-3.37,34.85-19.18,31.37-43.36-3.27-22.7-20.94-29.79-35.14-35.49l-1.91-.77c-9.55-4.11-15.89-7.44-17.13-16.05a8.341,8.341,0,0,1,.83-5.44A6.445,6.445,0,0,1,339.61,140.59ZM170.27,206.64l-8.34,38.97a.99.99,0,0,1-.83.77l-40.28,5.65a.661.661,0,0,1-.14.01.977.977,0,0,1-.59-.2,1.008,1.008,0,0,1-.39-.65l-3.31-23.54a.959.959,0,0,1,.19-.73,1.008,1.008,0,0,1,.65-.39l28.28-4.07-3.49-24.23-28.19,4.06a.959.959,0,0,1-.73-.19,1.008,1.008,0,0,1-.39-.65l-2.97-21.14a.959.959,0,0,1,.19-.73,1.008,1.008,0,0,1,.65-.39l40.47-5.69a.99.99,0,0,1,1.01.5l18.11,31.94A1.006,1.006,0,0,1,170.27,206.64Zm110.03-1.76a1,1,0,0,1-.69.44l-12.15,1.75a.661.661,0,0,1-.14.01.987.987,0,0,1-.65-.24.975.975,0,0,1-.34-.74L266,163.86a.993.993,0,0,1,.85-.99l1.03-.15a1,1,0,0,1,1.1.71l11.45,40.64A1.045,1.045,0,0,1,280.3,204.88Z"
+                fill="#fff"
+              ></path>
+              <g id="Group_73" data-name="Group 73">
+                <path
+                  id="Path_109"
+                  data-name="Path 109"
+                  d="M377.1,117.73l-1.91.28,1.06,7.29-1.76.26-1.06-7.29-1.91.28-.21-1.44,5.57-.81Z"
+                  fill="#fff"
+                ></path>
+                <path
+                  id="Path_110"
+                  data-name="Path 110"
+                  d="M380.3,115.79l2.14,5.98h.03l.36-6.34,2.6-.38,1.27,8.73-1.61.23-1.01-6.97h-.02l-.54,7.19-1.37.2-2.56-6.74h-.02l1.01,6.97-1.61.23-1.27-8.73Z"
+                  fill="#fff"
+                ></path>
+              </g>
+              <g id="Group_74" data-name="Group 74">
+                <path
+                  id="Path_111"
+                  data-name="Path 111"
+                  d="M193.45,73.26l-45.23,44.45,24.28-3.51,11.32,21.76Z"
+                  fill="#f6b318"
+                ></path>
+                <path
+                  id="Path_112"
+                  data-name="Path 112"
+                  d="M173.57,88.96l-19.33-9.87,9.93,19.1Z"
+                  fill="#f6b318"
+                ></path>
+                <path
+                  id="Path_113"
+                  data-name="Path 113"
+                  d="M192.34,98.57l-2,13.05,21.4-3.1Z"
+                  fill="#f6b318"
+                ></path>
+              </g>
+            </g>
+          </svg>
+        </a>
+        <button
+          class="navbar-toggler langStory"
+          type="button"
+          data-toggle="collapse"
+          data-target="#texas-nav"
+          aria-controls="texas-nav"
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+        >
+          <span class="icon-menu"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="texas-nav">
+          <ul class="navbar-nav ml-auto" id="menueul">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Story</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a href="locations.html" class="nav-link">Locations</a>
+            </li>
+            <!--<li class="nav-item"><a href="blog.html" class="nav-link">Blogs</a></li>-->
+            <!--<li class="nav-item"><a href="contactus.html" class="nav-link">Contact us</a></li>-->
+            <li class="nav-item active">
+              <a href="express.html" class="nav-link">Texas Express</a>
+            </li>
+            <li class="nav-item order-h">
+              <a href="#" class="nav-link">Order Now</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="express-banner">
+      <div class="container">
+        <div class="wrapper">
+          <a href="express.html">
+            <img
+              src="images/TC Express.png"
+              alt="express logo"
+              width="516"
+              height="145"
+              class="img-fluid express-banner-img"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="discover">
+      <div class="container">
+        <div class="info">
+          <h1 class="title">TEXAS CHICKEN EXPRESS</h1>
+          <p class="desc mb-3">
+            Texas Chicken Express is a world full of new flavor adventures; it
+            is dynamic, authentic, and vibrant all at the same time. Upholding
+            the unsurpassed quality of our products and our spirit of excellence
+            that drives us to do things the right way, every time
+          </p>
+          <p class="desc mb-3">
+            Designed specifically with our younger customers in mind, and it
+            features a brand-new flavor profile that is bold, forward-thinking,
+            and exciting.
+          </p>
+          <p class="desc">
+            Our Express concept was developed to cater to the needs of a world
+            that is constantly on the go but yet has a crave for the bold
+            flavors that define us.
+          </p>
+        </div>
+        <div class="image" data-aos="zoom-in">
+          <img
+            data-src="images/TEXAS CHICKEN Express - 141.png"
+            alt="discover"
+            width="688"
+            height="506"
+            class="img-fluid lozad"
+          />
+        </div>
+      </div>
+    </section>
+
+    <footer class="texas-footer texas-section img">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-2 col-md-6">
+            <div class="texas-footer-widget mb-4">
+              <h2 class="texas-heading-2">
+                DISCOVER <i class="brand-name">Texas Chicken</i><sub>™</sub>
+              </h2>
+              <ul class="list-unstyled">
+                <li><a href="story.html" class="py-2 d-block">our story</a></li>
+                <li><a href="mainmenu.html" class="py-2 d-block">menu</a></li>
+                <li>
+                  <a href="locations.html" class="py-2 d-block">locations</a>
+                </li>
+                <li><a href="halal.html" class="py-2 d-block">HALAL</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <div class="texas-footer-widget mb-4">
+              <h2 class="texas-heading-2">Work with us</h2>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="franchising.html" class="py-2 d-block"
+                    >Franchising</a
+                  >
+                </li>
+                <li><a href="careers.html" class="py-2 d-block">Careers</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <div class="texas-footer-widget mb-4">
+              <h2 class="texas-heading-2">texas way</h2>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="birthday.html" class="py-2 d-block"
+                    >Birthday Package</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <div class="texas-footer-widget mb-4">
+              <h2 class="texas-heading-2">Let's talk</h2>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="contactus.html" class="py-2 d-block">Contact us</a>
+                </li>
+                <li><a href="faq.html" class="py-2 d-block">FAQs</a></li>
+                <li><a href="blog.html" class="py-2 d-block">Blog</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="texas-footer-widget mb-4">
+              <h2 class="texas-heading-2">
+                <i class="brand-name">Texas Chicken</i><sub>™</sub> |<span>
+                  Thailand
+                </span>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="justify-content-center row">
+          <div
+            class="col-lg-5 col-md-6 align-items-end d-flex justify-content-center"
+          >
+            <div class="texas-footer-widget mb-4">
+              <ul class="list-unstyled">
+                <li>
+                  <a href="/en/Halal" class="py-2 d-block">
+                    <img src="images/halalogo.png" alt="" width="150"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+            <div class="texas-footer-widget mb-4">
+              <ul class="list-unstyled">
+                <li>
+                  <a href="tel:600-522-224" class="py-2 d-block">
+                    <img src="images/del.png" alt="" width="150"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--                <div class="align-items-end col-lg-3 col-md-6 d-flex">
+                                        <div class="texas-footer-widget mb-4">
+                                            <h2 class="texas-heading-2">Order Now</h2>
+                                            <ul class="texas-footer-social talabat list-unstyled float-lft talabat">
+                                                <li class="texas-animate fadeInUp texas-animated">
+                                                    <a target="_blank" href="https://www.doordash.com/business/church-s-chicken-canada-388868/?utm_campaign=388868&amp;utm_medium=website&amp;utm_source=partner-link"><img class="lozad" src="images/icons-4-01.png" width="55" height="56" alt="CHURCH’S TEXAS CHICKEN™"></a>
+                                                </li>
+                                                <li class="texas-animate fadeInUp texas-animated">
+                                                    <a target="_blank" href="https://www.skipthedishes.com/search/Church%27s%20Chicken"><img class="lozad" src="images/icons-03-02.png" width="55" height="56" alt="CHURCH’S TEXAS CHICKEN™"></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>-->
+          <div class="align-items-end col-lg-3 col-md-6 d-flex"></div>
+          <div class="col-lg-3 col-md-6">
+            <div class="texas-footer-widget mb-4">
+              <h2 class="texas-heading-2">CONNECT WITH</h2>
+              <ul class="texas-footer-social list-unstyled float-lft">
+                <li class="texas-animate">
+                  <a href="https://www.facebook.com/ChurchsChickenCanada/"
+                    ><span class="icon-facebook"></span
+                  ></a>
+                </li>
+                <li class="texas-animate">
+                  <a href="https://www.instagram.com/churchstexaschickenca/"
+                    ><span class="icon-instagram"></span
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyrights">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-4 p-0">
+              <p>
+                ©2020. All rights reserved. | Developed & Designed by
+                <a
+                  href="http://www.paradigmegypt.com/"
+                  target="_blank"
+                  class="paradigm"
+                  ><b>PSdigital</b></a
+                >.
+              </p>
+            </div>
+            <div class="col-md-4 p-0"></div>
+            <div class="col-md-4 p-0">
+              <div class="text-center terms">
+                <a href="privacy.html">privacy policy</a> |
+                <a href="terms.html">terms & condition</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/lozad.min.js" type="text/javascript"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script defer src="js/main.js"></script>
+
+    <script>
+      (async () => {
+        const observer = await lozad();
+        await observer.observe();
+      })();
+      AOS.init();
+    </script>
+  </body>
+</html>

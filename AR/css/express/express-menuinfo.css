@@ -1,0 +1,70 @@
+.express-menuinfo .express-search-logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 20px;
+}
+.express-menuinfo .express-search-logo .texas-express-logo {
+  height: 60px;
+  width: auto;
+}
+.express-menuinfo .express-search-logo .breadcrumb-search {
+  margin: 0;
+  min-width: 200px;
+  border: 1px solid #f8b02d;
+  border-radius: 10px;
+  overflow: hidden;
+}
+@media (max-width: 575px) {
+  .express-menuinfo .express-search-logo .breadcrumb-search {
+    flex: 1;
+  }
+}
+.express-menuinfo .express-search-logo .breadcrumb-search input {
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+}
+[dir="ltr"] .express-menuinfo .express-search-logo .breadcrumb-search input {
+  padding-right: 40px;
+  padding-left: 1rem;
+}
+[dir="rtl"] .express-menuinfo .express-search-logo .breadcrumb-search input {
+  padding-right: 1rem;
+  padding-left: 40px;
+}
+.express-menuinfo .express-search-logo .breadcrumb-search a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 40px;
+  height: 100%;
+  margin: 0;
+}
+[dir="ltr"] .express-menuinfo .express-search-logo .breadcrumb-search a {
+  right: 0;
+}
+[dir="rtl"] .express-menuinfo .express-search-logo .breadcrumb-search a {
+  right: auto;
+  left: 0;
+}
+@media (max-width: 850px) {
+  .express-menuinfo.menu .sidebar {
+    position: static;
+  }
+}
+.brand-name, sub {
+  font-family: "tablet";
+}
+.heading-section p sub {
+  padding-left: 5px;
+  bottom: 0.4em !important;
+  position: relative;
+  font-size: 15px;
+  font-family: 'Tablet';
+}

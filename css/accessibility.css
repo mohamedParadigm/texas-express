@@ -1,0 +1,11 @@
+.text-red h1, .text-red h2 {
+    /* color: #9a3324 !important; */
+    color: #2c2925 !important;
+}
+.breadcrumb .breadcrumbs a {
+    color: #2c2925;
+    text-decoration: underline;
+}
+.slider-item p.breadcrumbs a {
+    color: #fff;
+}
