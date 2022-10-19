@@ -160,14 +160,14 @@ body {
   }
 }
 .express-options .option.red {
-  background-color: #973724;
+  background-color: #9e4031;
 }
 .express-options .option.black {
   background-color: #2d2926;
 }
 .express-options .option.yellow {
   color: #2d2926;
-  background-color: #f4b026;
+  background-color: #fbbe00;
 }
 .express-options .content {
   padding: 27px 22px;
